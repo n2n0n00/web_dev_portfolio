@@ -1,0 +1,49 @@
+/* eslint-disable react/react-in-jsx-scope */
+
+/* Container styling */
+.alert-container {
+  position: absolute;
+  inset: 0;
+  top: 10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Alert box styling */
+.alert-box {
+  padding: 0.5rem; /* p-2 */
+  display: flex;
+  align-items: center;
+  color: #ffffff; /* text-indigo-100 */
+  display: inline-flex; /* lg:inline-flex */
+  border-radius: 9999px; /* lg:rounded-full */
+}
+
+/* Danger alert specific styling */
+.alert-danger {
+  background-color: #dc2626; /* bg-red-800 */
+}
+
+/* Success alert specific styling */
+.alert-success {
+  background-color: #0d6efd; /* bg-blue-800 */
+}
+
+/* Rounded badge styling */
+.alert-badge {
+  display: flex;
+  border-radius: 9999px;
+  background-color: #e53e3e; /* bg-red-500 */
+  margin-right: 0.75rem; /* mr-3 */
+  padding: 0.25rem 0.5rem; /* px-2 py-1 */
+  font-size: 0.75rem; /* text-xs */
+  font-weight: 600; /* font-semibold */
+  text-transform: uppercase;
+}
+
+/* Text styling */
+.alert-text {
+  margin-right: 0.5rem; /* mr-2 */
+  text-align: left;
+}

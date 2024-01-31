@@ -1,4 +1,4 @@
-# Restauranti - A React.js Restaurant Website
+# Personal Portfolio - A React.js Portfolio Website
 
 Welcome to my personal portfolio, a modern and responsive website built with React.js, Email.js, JavaScript and CSS.
 

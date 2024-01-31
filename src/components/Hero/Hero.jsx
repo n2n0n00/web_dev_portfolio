@@ -7,6 +7,7 @@ const Hero = () => {
   return (
     <section id="hero" className="hero-container">
       <div className="hero-content">
+        <p>Hello, I'm Athena</p>
         <h2>Full Stack and Occasional Web3 Developer</h2>
         <p>
           With a keyboard as my trusty sword and lines of code as my magic
